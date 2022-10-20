@@ -1,12 +1,20 @@
 #include "main.h"
-#include <unistd.h>
 /**
- * _putchar -prints out all the character c to standout
+ * main -prints _putchar and a new line
  * code written by joevi
- * Return: On success 1
+ * Return: Always 0
  */
-
 int _putchar(char c)
 {
-return (write(1, &c, 1));
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+
+return (0);
 }
